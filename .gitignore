@@ -1,0 +1,9 @@
+echo "__pycache__/
+*.pyc
+*.bin
+*.safetensors
+outputs/
+.cache/
+.env
+.venv/
+.ipynb_checkpoints/" > .gitignore
