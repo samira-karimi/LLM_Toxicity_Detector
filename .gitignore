@@ -1,9 +1,20 @@
-echo "__pycache__/
+# Python
+__pycache__/
 *.pyc
-*.bin
-*.safetensors
+
+# Env and biulds
 outputs/
 .cache/
 .env
 .venv/
-.ipynb_checkpoints/" > .gitignore
+
+# Models
+*.bin
+*.safetensors
+
+# Jupyter
+**/.ipynb_checkpoints/" > .gitignore
+.idea/
+
+# Local config
+config.yaml
