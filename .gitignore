@@ -11,6 +11,7 @@ outputs/
 # Models
 *.bin
 *.safetensors
+*.pkl
 
 # Jupyter
 **/.ipynb_checkpoints/" > .gitignore
