@@ -21,6 +21,7 @@ notebooks/training.ipynb: jupyter notebook of training, with example data, etc.
 ### Setup
 
 - Make sure you have Python ≥ 3.10.
+
 pipenv shell
 pipenv install torch transformers datasets peft accelerate
 pipenv install ipykernel
