@@ -14,17 +14,17 @@ This project fine-tunes a lightweight BERT model using **LoRA (Low-Rank Adaptati
 
 ### Usage
 
-src/training.py: training and saving trained file
-src/evaluation.py: evaluate the save model using test data
-notebooks/training.ipynb: jupyter notebook of training, with example data, etc.
+- src/training.py: training and saving trained file
+- src/evaluation.py: evaluate the save model using test data
+- notebooks/training.ipynb: jupyter notebook of training, with example data, etc.
 
 ### Setup
 
 - Make sure you have Python ≥ 3.10.
 
-pipenv shell
-pipenv install torch transformers datasets peft accelerate
-pipenv install ipykernel
-python -m ipykernel install --user --name=toxic-env --display-name "Python (toxic-env)"
-cd notebooks
-jupyter notebook
+- pipenv shell
+- pipenv install torch transformers datasets peft accelerate
+- pipenv install ipykernel
+- python -m ipykernel install --user --name=toxic-env --display-name "Python (toxic-env)"
+- cd notebooks
+- jupyter notebook
